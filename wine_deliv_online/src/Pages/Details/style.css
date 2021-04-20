@@ -1,0 +1,29 @@
+.detailsContainer {
+  display: flex;
+  margin-top: 7em;
+}
+
+.leftContDetail {
+  background-color: yellowgreen;
+  height: 20px;
+  width: 10px;
+  z-index: 2;
+}
+
+.rightContDetail {
+  width: 80rem;
+}
+
+.midDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsName {
+  color: #611703;
+  font-size: 30px;
+}
+.titles {
+  color: #611703;
+  font-size: 20px;
+}
