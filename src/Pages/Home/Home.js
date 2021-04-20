@@ -34,6 +34,7 @@ function Home(props) {
         }
       });
     });
+    document.title = "Wine.Delivery";
   }, [infinityScroll]);
 
   const fetchProducts = async () => {
